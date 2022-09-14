@@ -80,7 +80,7 @@ function SalesCard() {
                     <td>
                       <div className="dsmeta-red-btn-container">
                         
-                        <NotificationButton/>
+                        <NotificationButton saleId={sale.id}/>
                       </div>
                     </td>
                   </tr>
